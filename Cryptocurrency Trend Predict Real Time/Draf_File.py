@@ -75,3 +75,82 @@ def get_info_historical():
 
 get_info_historical()
 get_info()
+
+"""
+Sample Output:
+{'data': 
+    {'1': 
+        {'circulating_supply': 19697387,
+                'cmc_rank': 1,
+                'date_added': '2010-07-13T00:00:00.000Z',
+                'id': 1,
+                'infinite_supply': False,
+                'is_active': 1,
+                'is_fiat': 0,
+                'last_updated': '2024-05-12T17:59:00.000Z',
+                'max_supply': 21000000,
+                'name': 'Bitcoin',
+                'num_market_pairs': 11041,
+                'platform': None,
+                'quote': 
+                    {'USD': 
+                        {'fully_diluted_market_cap': 1294158222954.88,
+                                  'last_updated': '2024-05-12T17:59:00.000Z',
+                                  'market_cap': 1213882636036.883,
+                                  'market_cap_dominance': 53.3958,
+                                  'percent_change_1h': 0.41887816,
+                                  'percent_change_24h': 0.92745812,
+                                  'percent_change_30d': -9.48948231,
+                                  'percent_change_60d': -15.47910145,
+                                  'percent_change_7d': -4.09030092,
+                                  'percent_change_90d': 23.56246499,
+                                  'price': 61626.582045470444,
+                                  'tvl': None,
+                                  'volume_24h': 13176963670.894995,
+                                  'volume_change_24h': -20.5312}
+                        },
+                    'self_reported_circulating_supply': None,
+                    'self_reported_market_cap': None,
+                    'slug': 'bitcoin',
+                    'symbol': 'BTC',
+                    'tags': ['mineable',
+                             'pow',
+                             'sha-256',
+                             'store-of-value',
+                             'state-channel',
+                             'coinbase-ventures-portfolio',
+                             'three-arrows-capital-portfolio',
+                             'polychain-capital-portfolio',
+                             'binance-labs-portfolio',
+                             'blockchain-capital-portfolio',
+                             'boostvc-portfolio',
+                             'cms-holdings-portfolio',
+                             'dcg-portfolio',
+                             'dragonfly-capital-portfolio',
+                             'electric-capital-portfolio',
+                             'fabric-ventures-portfolio',
+                             'framework-ventures-portfolio',
+                             'galaxy-digital-portfolio',
+                             'huobi-capital-portfolio',
+                             'alameda-research-portfolio',
+                             'a16z-portfolio',
+                             '1confirmation-portfolio',
+                             'winklevoss-capital-portfolio',
+                             'usv-portfolio',
+                             'placeholder-ventures-portfolio',
+                             'pantera-capital-portfolio',
+                             'multicoin-capital-portfolio',
+                             'paradigm-portfolio',
+                             'bitcoin-ecosystem',
+                             'ftx-bankruptcy-estate'],
+                    'total_supply': 19697387,
+                    'tvl_ratio': None}
+                    },
+                'status': {'credit_count': 1,
+                            'elapsed': 150,
+                            'error_code': 0,
+                            'error_message': None,
+                            'notice': None,
+                            'timestamp': '2024-05-12T18:00:00.159Z'}
+        }
+"""
