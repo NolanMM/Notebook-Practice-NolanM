@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Set Up environment">
-      <change afterPath="$PROJECT_DIR$/AI Deep Leaning Computer Vision Udemy/Preparation/P23-Computer-Vision-AZ-Template-Folder.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI Deep Leaning Computer Vision Udemy/Preparation/P23-Installations.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Draf_File.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Face_Detection.py/Face_Detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properly Load &amp; Manage API Keys in Python/Notebook_Manage_APIs.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properly Load &amp; Manage API Keys in Python/Sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/.ipynb_checkpoints/RetrieveData-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/RetrieveData.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Import Files">
+      <change afterPath="$PROJECT_DIR$/Properly Load &amp; Manage API Keys in Python/.ipynb_checkpoints/Instruction-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properly Load &amp; Manage API Keys in Python/Instruction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +133,7 @@
       <workItem from="1715106568060" duration="1132000" />
       <workItem from="1715172249528" duration="5675000" />
       <workItem from="1715430839979" duration="1968000" />
-      <workItem from="1715532696592" duration="3020000" />
+      <workItem from="1715532696592" duration="3327000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -168,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713902796730</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Import Files">
+      <option name="closed" value="true" />
+      <created>1715535967851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715535967851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +177,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add files" />
     <MESSAGE value="Add Set Up environment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Set Up environment" />
+    <MESSAGE value="Import Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import Files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetcodeNotebook$main.coverage" NAME="main Coverage Results" MODIFIED="1713106521114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
