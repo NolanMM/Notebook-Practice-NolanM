@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Set Up environment">
-      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/.ipynb_checkpoints/LSTM Model Pandas-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/LSTM Model Pandas.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI Deep Leaning Computer Vision Udemy/Preparation/P23-Computer-Vision-AZ-Template-Folder.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI Deep Leaning Computer Vision Udemy/Preparation/P23-Installations.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Draf_File.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Face_Detection.py/Face_Detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properly Load &amp; Manage API Keys in Python/Notebook_Manage_APIs.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properly Load &amp; Manage API Keys in Python/Sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/.ipynb_checkpoints/RetrieveData-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stock Trend Prediction Streamlit/RetrieveData.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +26,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -130,6 +141,8 @@
       <workItem from="1714218939570" duration="71000" />
       <workItem from="1715106568060" duration="1132000" />
       <workItem from="1715172249528" duration="5675000" />
+      <workItem from="1715430839979" duration="1968000" />
+      <workItem from="1715532696592" duration="3020000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
