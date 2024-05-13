@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Import Files">
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/Lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/MultipleProcessing_Simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/MultipleThreading_Simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/Multiprocessing_Pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Array_Value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiple Threading/img_1.png" afterDir="false" />
+    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Import Python Multiple Thread and MultipleProcessing Files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/.env" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +239,7 @@
       <workItem from="1715430839979" duration="1968000" />
       <workItem from="1715532696592" duration="6303000" />
       <workItem from="1715570786765" duration="2883000" />
-      <workItem from="1715602967327" duration="4303000" />
+      <workItem from="1715602967327" duration="4380000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -304,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715617306156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Import Python Multiple Thread and MultipleProcessing Files">
+      <option name="closed" value="true" />
+      <created>1715620255884</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715620255884</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +316,8 @@
     <MESSAGE value="Add files" />
     <MESSAGE value="Add Set Up environment" />
     <MESSAGE value="Import Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import Files" />
+    <MESSAGE value="Import Python Multiple Thread and MultipleProcessing Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import Python Multiple Thread and MultipleProcessing Files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/main_py$Multiprocessing_Pool.coverage" NAME="Multiprocessing_Pool Coverage Results" MODIFIED="1715620081178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
