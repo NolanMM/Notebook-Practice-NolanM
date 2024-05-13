@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Import Files">
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/.ipynb_checkpoints/Dev_Workspace-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/.ipynb_checkpoints/Import and Analyze Data-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/.ipynb_checkpoints/Retrieve and Manipulate Data-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/CoinPrices.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Dev_Workspace.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Draf_Retrieve_Data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Import and Analyze Data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Retrieve and Manipulate Data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RSI Trading Strategy and Backtest/.ipynb_checkpoints/RSI Trading Strategy and Backtest-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RSI Trading Strategy and Backtest/RSI Trading Strategy and Backtest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/Lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/MultipleProcessing_Simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/MultipleThreading_Simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/Multiprocessing_Pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Array_Value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multiple Threading/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,25 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Introduction.executor": "Run",
+    "Python.Lock.executor": "Run",
+    "Python.MultipleProcessing_Simple.executor": "Run",
+    "Python.MultipleThreading_Simple (1).executor": "Run",
+    "Python.Multiprocessing_Pool.executor": "Run",
+    "Python.Sharing_Data_MultipleProcessing_Array_Value.executor": "Run",
+    "Python.Sharing_Data_MultipleProcessing_Queue.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.Multiprocessing_Pool">
+    <configuration name="Lock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeNotebook" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,12 +79,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiple Threading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/Lock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MultipleProcessing_Simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeNotebook" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,12 +102,81 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiple Threading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/MultipleProcessing_Simple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Multiprocessing_Pool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeNotebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiple Threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/Multiprocessing_Pool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sharing_Data_MultipleProcessing_Array_Value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeNotebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiple Threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Array_Value.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sharing_Data_MultipleProcessing_Queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeNotebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiple Threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,8 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.Multiprocessing_Pool" />
+        <item itemvalue="Python.Lock" />
+        <item itemvalue="Python.Sharing_Data_MultipleProcessing_Queue" />
+        <item itemvalue="Python.Sharing_Data_MultipleProcessing_Array_Value" />
+        <item itemvalue="Python.MultipleProcessing_Simple" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +246,7 @@
       <workItem from="1715430839979" duration="1968000" />
       <workItem from="1715532696592" duration="6303000" />
       <workItem from="1715570786765" duration="2883000" />
-      <workItem from="1715602967327" duration="1382000" />
+      <workItem from="1715602967327" duration="4303000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -219,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715539072552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Import Files">
+      <option name="closed" value="true" />
+      <created>1715617306156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715617306156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +318,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Import Files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$Multiprocessing_Pool.coverage" NAME="Multiprocessing_Pool Coverage Results" MODIFIED="1715620081178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$Sharing_Data_MultipleProcessing_Queue.coverage" NAME="Sharing_Data_MultipleProcessing_Queue Coverage Results" MODIFIED="1715619081828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$MultipleThreading_Simple__1_.coverage" NAME="MultipleThreading_Simple (1) Coverage Results" MODIFIED="1715617816860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$Sharing_Data_MultipleProcessing_Array_Value.coverage" NAME="Sharing_Data_MultipleProcessing_Array_Value Coverage Results" MODIFIED="1715618752546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$Lock.coverage" NAME="Lock Coverage Results" MODIFIED="1715619380188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$Introduction.coverage" NAME="Introduction Coverage Results" MODIFIED="1715617592875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$MultipleProcessing_Simple.coverage" NAME="MultipleProcessing_Simple Coverage Results" MODIFIED="1715618027253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/LeetcodeNotebook$main.coverage" NAME="main Coverage Results" MODIFIED="1713106521114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetcodeNotebook$Test.coverage" NAME="Test Coverage Results" MODIFIED="1713255273485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$app.coverage" NAME="app Coverage Results" MODIFIED="1715536799256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time" />
