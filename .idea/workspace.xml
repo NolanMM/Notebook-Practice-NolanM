@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Files">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Algorithms/K Nearest Neighbors/knn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Algorithms/K Nearest Neighbors/knntest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Algorithms/Linear Regression/linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Algorithms/Linear Regression/linear_regression_tests.py" afterDir="false" />
+    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Machine Learning Study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/Lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/Lock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/MultipleProcessing_Simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/MultipleProcessing_Simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/MultipleThreading_Simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/MultipleThreading_Simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/Multiprocessing_Pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/Multiprocessing_Pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Array_Value.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/Sharing_Data_MultipleProcessing_Array_Value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/Sharing_Data_MultipleProcessing_Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/Sharing_Data_MultipleProcessing_Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple Threading/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple Threading/Python/img_1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/Lock.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Multiple Threading\Python\Lock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +117,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiple Threading/Multiprocessing_Pool.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Multiple Threading\Python\Multiprocessing_Pool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +257,7 @@
       <workItem from="1715532696592" duration="6303000" />
       <workItem from="1715570786765" duration="2883000" />
       <workItem from="1715602967327" duration="6431000" />
-      <workItem from="1715687858100" duration="3367000" />
+      <workItem from="1715687858100" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -336,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715620640481</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Machine Learning Study">
+      <option name="closed" value="true" />
+      <created>1715691380145</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715691380145</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +361,8 @@
     <MESSAGE value="Import Python Multiple Thread and MultipleProcessing Files" />
     <MESSAGE value="Removes Files" />
     <MESSAGE value="Add Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Files" />
+    <MESSAGE value="Add Machine Learning Study" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Machine Learning Study" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/main_py$knntest.coverage" NAME="knntest Coverage Results" MODIFIED="1715689743122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/K Nearest Neighbors" />
@@ -365,6 +377,6 @@
     <SUITE FILE_PATH="coverage/main_py$Lock.coverage" NAME="Lock Coverage Results" MODIFIED="1715619380188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/main_py$Introduction.coverage" NAME="Introduction Coverage Results" MODIFIED="1715617592875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/LeetcodeNotebook$Test.coverage" NAME="Test Coverage Results" MODIFIED="1713255273485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$linear_regression_tests.coverage" NAME="linear_regression_tests Coverage Results" MODIFIED="1715691225307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/Linear Regression" />
+    <SUITE FILE_PATH="coverage/main_py$linear_regression_tests.coverage" NAME="linear_regression_tests Coverage Results" MODIFIED="1715691237650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/Linear Regression" />
   </component>
 </project>
