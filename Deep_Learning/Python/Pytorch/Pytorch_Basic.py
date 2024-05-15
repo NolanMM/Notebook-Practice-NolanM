@@ -15,6 +15,8 @@ Note:
     
     x  = torch.ones(5, requires_grad=True) # requires_grad=True is used to track computation and tell
     pytorch to compute gradients for this tensor later during backpropagation or optimization phase
+    When ever you have a variable in the model want to optimize it, you should set requires_grad=True
+    because it will be used to compute the gradients 
 """
 
 

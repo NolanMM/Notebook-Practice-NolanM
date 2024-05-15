@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Algorithms">
-      <change afterPath="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Installed_Testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Pytorch_Basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Algorithms/Decision_Tree/Decision_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Machine Learning/Algorithms/Support Vector Machine/Support_Vector_Machine.py" afterDir="false" />
+    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Studies">
+      <change afterPath="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Gradient_Computation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Gradient_Computation_Optimizer_Note.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Pytorch_Basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Pytorch_Basic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Gradient_Computation.executor": "Run",
     "Python.Installed_Testing.executor": "Run",
     "Python.Introduction.executor": "Run",
     "Python.Lock.executor": "Run",
@@ -84,7 +84,30 @@
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Multiple Threading\Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Pytorch_Basic">
+  <component name="RunManager" selected="Python.Gradient_Computation">
+    <configuration name="Gradient_Computation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetcodeNotebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deep_Learning/Python/Pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Gradient_Computation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Installed_Testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeNotebook" />
       <option name="ENV_FILES" value="" />
@@ -177,29 +200,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logistic_regression_tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetcodeNotebook" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine Learning/Algorithms/Logistic Regression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine Learning/Algorithms/Logistic Regression/logistic_regression_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="LeetcodeNotebook" />
       <option name="ENV_FILES" value="" />
@@ -225,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gradient_Computation" />
         <item itemvalue="Python.Pytorch_Basic" />
         <item itemvalue="Python.Installed_Testing" />
         <item itemvalue="Python.Perceptron_Test" />
         <item itemvalue="Python.Naive_Bayes_Classified_Test" />
-        <item itemvalue="Python.logistic_regression_tests" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +264,7 @@
       <workItem from="1715602967327" duration="6431000" />
       <workItem from="1715687858100" duration="13974000" />
       <workItem from="1715781808906" duration="2910000" />
-      <workItem from="1715793669675" duration="1945000" />
+      <workItem from="1715793669675" duration="4098000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -370,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715715785012</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add Studies">
+      <option name="closed" value="true" />
+      <created>1715795643945</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715795643945</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +395,8 @@
     <MESSAGE value="Add Machine Learning Study" />
     <MESSAGE value="Add Multiple Threads C++" />
     <MESSAGE value="Add Algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Algorithms" />
+    <MESSAGE value="Add Studies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Studies" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/main_py$knntest.coverage" NAME="knntest Coverage Results" MODIFIED="1715689743122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/K Nearest Neighbors" />
@@ -402,6 +411,7 @@
     <SUITE FILE_PATH="coverage/main_py$app.coverage" NAME="app Coverage Results" MODIFIED="1715536799256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time" />
     <SUITE FILE_PATH="coverage/main_py$Sharing_Data_MultipleProcessing_Queue.coverage" NAME="Sharing_Data_MultipleProcessing_Queue Coverage Results" MODIFIED="1715619081828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/main_py$Pytorch_Basic.coverage" NAME="Pytorch_Basic Coverage Results" MODIFIED="1715794421089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_Learning/Python/Pytorch" />
+    <SUITE FILE_PATH="coverage/main_py$Gradient_Computation.coverage" NAME="Gradient_Computation Coverage Results" MODIFIED="1715796633490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_Learning/Python/Pytorch" />
     <SUITE FILE_PATH="coverage/main_py$Sharing_Data_MultipleProcessing_Array_Value.coverage" NAME="Sharing_Data_MultipleProcessing_Array_Value Coverage Results" MODIFIED="1715618752546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/main_py$Lock.coverage" NAME="Lock Coverage Results" MODIFIED="1715619380188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/main_py$Introduction.coverage" NAME="Introduction Coverage Results" MODIFIED="1715617592875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
