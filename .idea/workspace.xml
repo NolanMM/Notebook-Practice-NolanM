@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Set Up Kafka">
-      <change afterPath="$PROJECT_DIR$/Set Up Tool For Data/Windows11/Kafka/Kafka Fundamental/Kafka_Consumer_Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set Up Tool For Data/Windows11/Kafka/Kafka Fundamental/Kafka_Producer_Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set Up Tool For Data/Windows11/Kafka/Kafka Fundamental/Kafka_management_module.py" afterDir="false" />
+    <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Kafka Interaction">
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/.ipynb_checkpoints/Indexing And Selection Numpy-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/.ipynb_checkpoints/Numpy_Array-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/.ipynb_checkpoints/Numpy_Operation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/Indexing And Selection Numpy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/Numpy_Array.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Numpy/Numpy_Operation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Pandas/.ipynb_checkpoints/Pandas Introduction-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Pandas/.ipynb_checkpoints/Series-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Pandas/Pandas Introduction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Pandas/Series.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning/Numpy/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning/Numpy/Untitled.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +282,8 @@
       <workItem from="1715793669675" duration="9294000" />
       <workItem from="1715832116605" duration="22000" />
       <workItem from="1715892243824" duration="3737000" />
-      <workItem from="1715909353876" duration="4169000" />
+      <workItem from="1715909353876" duration="5454000" />
+      <workItem from="1715945191924" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -403,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715911358506</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add Kafka Interaction">
+      <option name="closed" value="true" />
+      <created>1715914137406</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715914137406</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +441,8 @@
     <MESSAGE value="Add Studies" />
     <MESSAGE value="Add Gradient Computation" />
     <MESSAGE value="Add Set Up Kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Set Up Kafka" />
+    <MESSAGE value="Add Kafka Interaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Kafka Interaction" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/main_py$knntest.coverage" NAME="knntest Coverage Results" MODIFIED="1715689743122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/K Nearest Neighbors" />
