@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 from dotenv import load_dotenv
 import os
 
-load_dotenv(override=True)
+load_dotenv("../Consumer/.env", override=True)
 
 # Load environment variables
 postgres_v = os.getenv("POSTGRES_VERSION")

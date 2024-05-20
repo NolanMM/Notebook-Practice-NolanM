@@ -4,7 +4,11 @@ import asyncio
 from pyspark.sql import SparkSession
 import plotly.express as px
 from dotenv import load_dotenv
-from Process_Data_Batch import Process_Data_Centre
+from sparkdirct.ProcessData.ProcessDataCentre import Process_Data_Centre
+from datetime import datetime
+from Services.data_cache import DataCache
+
+start_time = datetime.now()
 
 # Load environment variables
 load_dotenv(override=True)
@@ -18,11 +22,15 @@ postgres_pass = os.getenv("POSTGRES_PASSWORD")
 postgres_table = os.getenv("POSTGRES_TABLE")
 output_path = os.getenv("OUTPUT_PATH")
 
-# Initialize Spark session with PostgreSQL driver
+
+# Initialize Spark session with PostgresSQL driver
 spark = SparkSession.builder \
     .appName("StreamlitSparkVisualization") \
-    .config("spark.jars.packages", "org.postgresql:postgresql:42.2.20") \
+    .config("spark.jars.packages", postgres_v) \
     .getOrCreate()
+
+# Initialize DataCache
+data_cache = DataCache(output_path)
 
 # Streamlit app configuration
 st.title("Real-time Cryptocurrency Prices")
@@ -34,23 +42,26 @@ selected_symbol = st.selectbox("Select Cryptocurrency", unique_symbols)
 # Function to read and visualize data
 async def display_data(container_):
     while True:
-        # Strip all blank spaces from the selected symbol
         selected_symbol_ = selected_symbol.strip()
-        df = Process_Data_Centre.get_data_by_currency_ticket(selected_symbol_)
-        pandas_df = df.toPandas()
+        cached_data = data_cache.get_data(selected_symbol_)
 
-        # Ensure data is sorted by event_time
-        pandas_df = pandas_df.sort_values(by='event_time')
+        if cached_data is not None:
+            pandas_df = cached_data
+        else:
+            df = Process_Data_Centre.get_data_by_currency_ticket(selected_symbol_)
+            pandas_df = df.toPandas()
+            pandas_df = pandas_df.sort_values(by=column_3_name)
+            data_cache.set_data(selected_symbol_, pandas_df)
 
-        # Sampling if data is too dense
+        pandas_df = pandas_df[pandas_df[column_3_name] > start_time]
+
         if len(pandas_df) > 1000:
             pandas_df = pandas_df.iloc[::10, :]
 
-        fig = px.line(pandas_df, x='event_time', y='price', title=f"{selected_symbol_} Price Over Time")
+        fig = px.line(pandas_df, x=column_3_name, y=column_1_name, title=f"{selected_symbol_} Price Over Time")
         container_.plotly_chart(fig, use_container_width=True)
 
         await asyncio.sleep(1)
-
 
 # Streamlit async loop to read and visualize data
 container = st.empty()
