@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Files">
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/Services/data_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Cache/cache.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Kafka/CryptoPriceProducerStreaming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Services/data_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/crypto_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/Consumer/CryptoPriceConsumerStreaming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/crypto_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/crypto_visualization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/Kafka/CryptoPriceProducerStreaming.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/Services/data_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/crypto_visualization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/Consumer/CryptoPriceConsumerStreaming.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/NolanM/Desktop/Leetcode/Python/LeetcodeNotebook/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/Services",
+    "last_opened_file_path": "C:/Users/NolanM/Desktop/Leetcode/Python/LeetcodeNotebook/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,18 +90,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Streamlit\sparkdirct\ProcessData" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit\Services" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit\sparkdirct" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit\Kafka" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit" />
-      <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Spark" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit\sparkdirct\Consumer" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Spark" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit\sparkdirct" />
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit" />
-      <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Dev_Files" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ConvertTimeVNCA">
@@ -285,7 +294,8 @@
       <workItem from="1716087973571" duration="92000" />
       <workItem from="1716088073968" duration="257000" />
       <workItem from="1716119583990" duration="3621000" />
-      <workItem from="1716123261231" duration="18255000" />
+      <workItem from="1716123261231" duration="18371000" />
+      <workItem from="1716176613277" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -471,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716165937202</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add Files">
+      <option name="closed" value="true" />
+      <created>1716176489157</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716176489157</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

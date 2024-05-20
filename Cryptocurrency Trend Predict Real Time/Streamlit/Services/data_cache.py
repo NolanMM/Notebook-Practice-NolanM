@@ -2,21 +2,30 @@ import os
 import pickle
 from datetime import datetime
 
-
 class DataCache:
     def __init__(self, output_path):
         self.output_path = output_path
         self.cache = self.load_cache()
 
     def load_cache(self):
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
+
         if os.path.exists(self.output_path):
-            with open(self.output_path, 'rb') as cache_file:
-                return pickle.load(cache_file)
+            try:
+                with open(self.output_path, 'rb') as cache_file:
+                    return pickle.load(cache_file)
+            except PermissionError:
+                print(f"Permission denied: {self.output_path}")
+                return {}
         return {}
 
     def save_cache(self):
-        with open(self.output_path, 'wb') as cache_file:
-            pickle.dump(self.cache, cache_file)
+        try:
+            with open(self.output_path, 'wb') as cache_file:
+                pickle.dump(self.cache, cache_file)
+        except PermissionError:
+            print(f"Permission denied: {self.output_path}")
 
     def get_composite_key(self, symbol, date):
         return f"{symbol}_{date}"
