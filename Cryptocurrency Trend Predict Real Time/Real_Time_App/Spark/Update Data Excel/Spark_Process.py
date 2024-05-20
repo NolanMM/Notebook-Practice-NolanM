@@ -41,7 +41,7 @@ postgresql_properties = {
 }
 
 # Write stream to PostgreSQL
-query = json_df \
+query = json_df.select("price", "symbol", "event_time") \
     .writeStream \
     .outputMode("append") \
     .format("jdbc") \

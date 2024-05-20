@@ -3,10 +3,17 @@ import websocket
 from kafka import KafkaProducer
 from binance.client import Client
 import pandas as pd
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv("../.env", override=True)
+bootstrap_servers_ = os.getenv('BOOSTRAP_SERVERS')
+socket_url = os.getenv('SOCKET_URL')
 
 # Kafka producer configuration
 producer = KafkaProducer(
-    bootstrap_servers='localhost:9092',
+    bootstrap_servers=bootstrap_servers_,
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
 
@@ -38,16 +45,17 @@ def on_message(ws, message):
             producer.send('crypto-prices', value=manipulated_data)
 
 
-def on_error(ws, error):
+def on_error(ws_, error):
     print(f"Error: {error}")
+    ws_.close()
 
 
-def on_open(ws):
+def on_open(_):
     print("### WebSocket opened ###")
 
 
 # WebSocket URL
-socket = f"wss://stream.binance.com:9443/stream?streams={relevant_assets}"
+socket = f"{socket_url}{relevant_assets}"
 
 # Start WebSocket connection
 ws = websocket.WebSocketApp(
