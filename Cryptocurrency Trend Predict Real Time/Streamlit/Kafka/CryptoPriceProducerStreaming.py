@@ -5,6 +5,7 @@ from binance.client import Client
 import pandas as pd
 from dotenv import load_dotenv
 import os
+import time
 
 
 class CryptoPriceProducerStreaming:
@@ -40,6 +41,7 @@ class CryptoPriceProducerStreaming:
             if 'k' in data:
                 manipulated_data = self.manipulate(data)
                 self.producer.send('crypto-prices', value=manipulated_data)
+                time.sleep(1)
 
     def on_error(self, ws, error):
         print(f"Error: {error}")

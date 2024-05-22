@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5ffeb9-a320-4b9b-83ce-dd5dbdaeeb92" name="Changes" comment="Add Files">
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Cache/cache.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Kafka/CryptoPriceProducerStreaming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Services/data_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/crypto_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/Consumer/CryptoPriceConsumerStreaming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/historical_binance_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Seaborn/.ipynb_checkpoints/Seaborn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Seaborn/Seaborn.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/Kafka/CryptoPriceProducerStreaming.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/Services/data_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/crypto_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/Consumer/CryptoPriceConsumerStreaming.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Real_Time_App/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Cache/cache.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Cache/cache.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Kafka/CryptoPriceProducerStreaming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/Kafka/CryptoPriceProducerStreaming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/crypto_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/crypto_visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/ProcessDataCentre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,44 +45,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Backpropagation.executor": "Run",
-    "Python.ConvertTimeVNCA.executor": "Run",
-    "Python.Gradient_Computation.executor": "Run",
-    "Python.Installed_Testing.executor": "Run",
-    "Python.Introduction.executor": "Run",
-    "Python.Lock.executor": "Run",
-    "Python.MultipleProcessing_Simple.executor": "Run",
-    "Python.MultipleThreading_Simple (1).executor": "Run",
-    "Python.Multiprocessing_Pool.executor": "Run",
-    "Python.Naive_Bayes_Classified_Test.executor": "Run",
-    "Python.Perceptron_Test.executor": "Run",
-    "Python.Pytorch_Basic.executor": "Run",
-    "Python.Sharing_Data_MultipleProcessing_Array_Value.executor": "Run",
-    "Python.Sharing_Data_MultipleProcessing_Queue.executor": "Run",
-    "Python.Test.executor": "Run",
-    "Python.TimeTableapp.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.knntest.executor": "Run",
-    "Python.linear_regression.executor": "Run",
-    "Python.linear_regression_tests.executor": "Run",
-    "Python.logistic_regression_tests.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/NolanM/Desktop/Leetcode/Python/LeetcodeNotebook/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Backpropagation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ConvertTimeVNCA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient_Computation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Installed_Testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Introduction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultipleProcessing_Simple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultipleThreading_Simple (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multiprocessing_Pool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Naive_Bayes_Classified_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Perceptron_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pytorch_Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RetriveHistoricalCurrencyData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sharing_Data_MultipleProcessing_Array_Value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sharing_Data_MultipleProcessing_Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TimeTableapp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knntest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linear_regression_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logistic_regression_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/NolanM/Desktop/Leetcode/Python/LeetcodeNotebook/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Streamlit\sparkdirct\ProcessData" />
@@ -104,7 +100,7 @@
       <recent name="C:\Users\NolanM\Desktop\Leetcode\Python\LeetcodeNotebook\Cryptocurrency Trend Predict Real Time\Real_Time_App\Streamlit" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ConvertTimeVNCA">
+  <component name="RunManager" selected="Python.RetriveHistoricalCurrencyData">
     <configuration name="Backpropagation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeNotebook" />
       <option name="ENV_FILES" value="" />
@@ -174,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pytorch_Basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RetriveHistoricalCurrencyData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetcodeNotebook" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,12 +179,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deep_Learning/Python/Pytorch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deep_Learning/Python/Pytorch/Pytorch_Basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData/RetriveHistoricalCurrencyData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RetriveHistoricalCurrencyData" />
         <item itemvalue="Python.ConvertTimeVNCA" />
         <item itemvalue="Python.TimeTableapp" />
         <item itemvalue="Python.Backpropagation" />
         <item itemvalue="Python.Gradient_Computation" />
-        <item itemvalue="Python.Pytorch_Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +291,12 @@
       <workItem from="1716088073968" duration="257000" />
       <workItem from="1716119583990" duration="3621000" />
       <workItem from="1716123261231" duration="18371000" />
-      <workItem from="1716176613277" duration="1415000" />
+      <workItem from="1716176613277" duration="1459000" />
+      <workItem from="1716220675452" duration="5338000" />
+      <workItem from="1716226279238" duration="1241000" />
+      <workItem from="1716255061070" duration="8000" />
+      <workItem from="1716256104181" duration="1559000" />
+      <workItem from="1716294133796" duration="932000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <option name="closed" value="true" />
@@ -489,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716176489157</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add Files">
+      <option name="closed" value="true" />
+      <created>1716178070028</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716178070028</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,6 +543,7 @@
     <SUITE FILE_PATH="coverage/main_py$Sharing_Data_MultipleProcessing_Array_Value.coverage" NAME="Sharing_Data_MultipleProcessing_Array_Value Coverage Results" MODIFIED="1715618752546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/main_py$Lock.coverage" NAME="Lock Coverage Results" MODIFIED="1715619380188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
     <SUITE FILE_PATH="coverage/main_py$Introduction.coverage" NAME="Introduction Coverage Results" MODIFIED="1715617592875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiple Threading" />
+    <SUITE FILE_PATH="coverage/main_py$RetriveHistoricalCurrencyData.coverage" NAME="RetriveHistoricalCurrencyData Coverage Results" MODIFIED="1716226464084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cryptocurrency Trend Predict Real Time/Streamlit/sparkdirct/ProcessData" />
     <SUITE FILE_PATH="coverage/main_py$Perceptron_Test.coverage" NAME="Perceptron_Test Coverage Results" MODIFIED="1715715682416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/Perceptron" />
     <SUITE FILE_PATH="coverage/LeetcodeNotebook$Test.coverage" NAME="Test Coverage Results" MODIFIED="1713255273485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$linear_regression_tests.coverage" NAME="linear_regression_tests Coverage Results" MODIFIED="1715691237650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/Algorithms/Linear Regression" />
